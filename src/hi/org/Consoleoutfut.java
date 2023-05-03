@@ -43,6 +43,27 @@ public class Consoleoutfut {
 		System.out.println(a+b);
 		System.out.println("a"+b);
 		
+		System.out.println("=======================");
+		
+		//2. system.out.print() <== 출력후 개행하지 않는다.
+			System.out.print("안녕 ");
+			System.out.print("하세요\n");
+			
+		//3. system.out.printf(); <== 자료형 포멧에 따라 출력을 할 수 있다.
+			System.out.printf("%d\n", 30); // "%d"은 10진수로 출력
+			// 문자열 내에서 "\"은 엔터, 
+			System.out.printf("%o\n", 30); // "%o" 8진수로 출력
+			System.out.printf("%x\n", 30); // "%x" 16진수로 출력
+			
+			System.out.printf("%s \n", "문자열 출력"); // %s 문자열을 가져올때 사용
+			System.out.printf("%f \n", 5.8);//%f 실수를 가져올 때
+			System.out.printf("%4.2f\n", 5.8 );//%4.2f : 전체 4자리 소숫점이하 2자리
+			System.out.printf("%d 와 %4.2f 를 출력 합니다.", 4,5.8 );
+			
+			System.out.println("=======================");
+		
+			
+		
 		
 		
 		
