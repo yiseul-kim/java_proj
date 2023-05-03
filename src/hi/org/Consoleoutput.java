@@ -2,7 +2,7 @@ package hi.org;
 // 패키지 : 클래스파일을 저장될 폴더 구조
 
 
-public class Consoleoutfut {
+public class Consoleoutput {
 	public static void main(String[] args) {
 		// main 메소드블락에서 프로그램 작성 
 		//문자열 출력 : "" 처리 
@@ -49,8 +49,9 @@ public class Consoleoutfut {
 			System.out.print("안녕 ");
 			System.out.print("하세요\n");
 			
-		//3. system.out.printf(); <== 자료형 포멧에 따라 출력을 할 수 있다.
+		//3. printf(); <== 자료형 포멧에 따라 출력을 할 수 있다.
 			System.out.printf("%d\n", 30); // "%d"은 10진수로 출력
+			
 			// 문자열 내에서 "\"은 엔터, 
 			System.out.printf("%o\n", 30); // "%o" 8진수로 출력
 			System.out.printf("%x\n", 30); // "%x" 16진수로 출력
@@ -62,6 +63,8 @@ public class Consoleoutfut {
 			
 			System.out.println("=======================");
 		
+			
+		System.out.println();
 			
 		
 		

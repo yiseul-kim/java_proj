@@ -1,6 +1,6 @@
 package hi.org;
 
-public class ConsoleOut2 {
+public class ConsoleOutput2 {
 	public static void main(String[] args) {
 		
 		
