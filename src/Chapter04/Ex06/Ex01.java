@@ -27,10 +27,10 @@ public class Ex01 {
 				System.out.println("1. 1부터 20까지의 홀수를 차례대로 출력하는 프로그램");
 						for (int i=1 ; i<21; i++ ) {
 							if (i%2==1)
-							System.out.print(i+"\t");
+							System.out.print(i+" / ");
 						} System.out.println();
-				}
-				 else if ( a == 2 ) {
+			}
+			else if ( a == 2 ) {
 				System.out.println("2. 10 이하의 정수를 입력받아 정수만큼 \"JAVA 프로그래밍\"이라고 출력하는 프로그램");
 				
 					int b;
@@ -49,7 +49,7 @@ public class Ex01 {
 				int input;
 				int even, odd;
 				even = odd = 0;
-				System.out.println("10개의 정수를 입력해주세요.");
+				System.out.println("10개의 정수를 공백을 이용해서 입력해주세요.");
 				
 				for( int i=1; i<=10; i++) {
 					input = sc.nextInt();
@@ -59,8 +59,7 @@ public class Ex01 {
 						odd++; //홀수
 					}
 				}
-				System.out.printf("짝수는 %d개 입니다.\n", even);
-				System.out.printf("홀수는 %d개 입니다.\n", odd);
+				System.out.printf("짝수는 %d개, 홀수는 %d개 입니다.\n", even, odd);
 				System.out.println();
 				
 			}else if ( a == 4 ) {	
@@ -69,31 +68,34 @@ public class Ex01 {
 				
 				int aa, bb, cc, tot;
 				
-				float avg;
+				double avg;
 				
-				System.out.print("세 과목 점수를 입력하시오 : ");
+				System.out.print("세 과목 점수를 공백을 이용해서 입력하시오 : \n");
 		        aa = sc.nextInt();
 		        bb = sc.nextInt();
 		        cc = sc.nextInt();
 		        
 		        tot = aa+bb+cc;
-				avg = tot/3.0f;
+				avg = tot/3;
 		        
-		        System.out.printf("당신의 총점:  %d", tot);
-		        System.out.printf("당신의 평균:  %d", avg);
+		        System.out.printf("당신의 총점은 %d점 이고, 당신의 평균은  %3.2f점 입니다. \n\n", tot, avg);
 		        
-			} else{ 
+			} else if ( a==5 ) { 
+				System.out.println("5. 프로그램 종료 ");
+				break; 
+			}else {
 				System.out.println("잘못 입력 하셨습니다. ");
 			}
-				while (true);
-			
-				System.out.println("5, 프로그램 종료됨");
+				 
+		} while (true);
 				
-				sc.close();
-	
+		sc.close();
 		
 		
 		
-		}
+		
+		
+	}
 }
-}
+
+
