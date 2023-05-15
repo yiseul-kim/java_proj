@@ -93,6 +93,16 @@ public class Object04 {
 			arr1[1] = b ;
 			arr1[2] = c ;
 			
+			//배열의 저장된 각 방에 객체를 다시 끄집어 낸다. 
+			System.out.println("===========================");
+			
+			car out1 = arr1[0]; 		// arr1 0번 방의 객체 c1이 out1으로 끄집어 낸다. 
+			
+			System.out.println(a);		// c2객체를 저장 ==> out2
+			System.out.println(out1);	// c3객체를 저장 ==> out3
+			
+			out1.print();
+			
 			
 			
 			
