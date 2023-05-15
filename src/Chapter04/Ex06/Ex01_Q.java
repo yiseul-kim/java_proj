@@ -2,7 +2,7 @@ package Chapter04.Ex06;
 
 import java.util.Scanner;
 
-public class Ex01 {
+public class Ex01_Q {
 	public static void main(String[] args) {
 		/*
 		 스캐너로 번호를 입력 받고 각 프로그램을 출력 하는 프로그램을 작성 ( 17:50)

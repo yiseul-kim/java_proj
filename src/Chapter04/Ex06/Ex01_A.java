@@ -2,7 +2,7 @@ package Chapter04.Ex06;
 
 import java.util.Scanner;
 
-public class Ex01_1 {
+public class Ex01_A {
 	public static void main(String[] args) {
 		
 	
