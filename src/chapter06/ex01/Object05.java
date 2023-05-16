@@ -1,5 +1,7 @@
 package chapter06.ex01;
 
+import javax.print.DocFlavor.STRING;
+
 class Animal {
 	//기본생성자
 	public Animal () {}
@@ -60,21 +62,45 @@ public class Object05 {
 		a3.animalWeight = 20;
 		
 		a3.print();
-		System.out.println();
+		
 		System.out.println("====arr1배열에 객체 저장후 끄집어내기=====\n");
 		
+		int[] arr11 = new int[3];		// arr11 배열은 방(index) 3개가 생성이 되고 정수만 입력
+		double[] arr12 = new double[3];	// arr12 배열은 방(index) 3개가 생성이 되고 실수만 입력
+		String[] arr13 = new String[3];	// 문자열만 저장가능 
 		
-		Animal[] arr1 = new Animal[3];
+		Animal[] arr1 = new Animal[3];	// Animal 타입의 객체만 저장이 가능
 		
-		arr1[0] = a1;
-		arr1[1] = a2;
-		arr1[2] = a3;
+		// 각 배열의 방에 Animal 타입의 객체를 저장, tiger egle, dog는 Animal 클래스로 생성됨, Animal 타입을 가지고 있다. 
 		
-		System.out.println(a1);
+		arr1[0] = a1;		// arr1 0번째 방에 tiger 객체를 저장
+		arr1[1] = a2;		// arr1 1번째 방에 egle 객체를 저장
+		arr1[2] = a3;		// arr1 2번째 방에 dog 객체를 저장
 		
-		Animal out1 = arr1[0];
-		Animal out2 = arr1[1];
-		Animal out3 = arr1[2];
+		// 각 배열의 방에는 객체의 Heap의 주소가 들어가 있다
+//		System.out.println(a1);		//76ccd017
+//		System.out.println(a2);		//182decdb
+//		System.out.println(a3);		//26f0a63f
+		
+		// 배열의 방의 저장된 객체를 다시 변수에 할당해서 끄집어 낸다. 
+		// 객체 변수를 선언후 끄집어 낸다. 
+		
+			
+//		  System.out.println("===================");
+//		 
+//		    Animal bb = null ; 			// 객체형 변수 : a1
+//		    	System.out.println(a1);
+//		    a1 = arr1[0];				//arr1[0]방의 값을 가지고 와서 a1 변수에 할당.
+//		    	System.out.println(a1);
+		
+		
+		System.out.println("==============");
+		
+		
+		
+		Animal out1 = arr1[0];		// tiger개체 
+		Animal out2 = arr1[1];		// egle 개체
+		Animal out3 = arr1[2];		// dog 개체
 		
 		out1.print();
 		System.out.println("==============");
