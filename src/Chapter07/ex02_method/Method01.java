@@ -13,7 +13,7 @@ class A {
 		// 메소드 내부에 프로그래밍 기능
 	
 	//리턴값이 없는 메소드, 인풋 값이 없는 
-	public void print() {    //public 생략 가능   //리턴타입 메소드명() {}
+	void print() {    //public 생략 가능   //리턴타입 메소드명() {}
 		//호출시 필드의 내용을 출력
 		System.out.println("m 필드의 값 : "+ m);
 		System.out.println("n 필드의 값 : "+ n);
