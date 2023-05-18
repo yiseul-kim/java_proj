@@ -32,7 +32,7 @@ class MethodOverloading {
 //		System.out.println("int k : "+ k + " , int g : "+ g);
 //	}
 	
-	//메소드 오버 라이딩 : 부모 클래스의 메소드를 재정의 해서 사용함. 
+	//메소드 오버 라이딩 : 부모 클래스의 메소드를 재정의 해서 사용함. x
 			// 상속에서 적용, 
 	@Override
 	public String toString() {
