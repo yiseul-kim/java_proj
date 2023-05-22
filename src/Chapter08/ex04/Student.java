@@ -20,10 +20,10 @@ public class Student {
 		//@Setter	: 						   setter
 		//@ToString : 						   toString
 		//@NoArgsConstructor : 기본 생성자를 자동으로 만듬.
-	
 		//@Data : 위의 모든 어노테이션을 포함.
 	
 		//@AllArgsConstructor : 모든 생성자를 자동으로 만듬
+	
 	
 		//getter로 필드의 정볼르 출력
 	}

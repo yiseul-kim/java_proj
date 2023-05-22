@@ -20,5 +20,4 @@ public class A_Test {
 		a1.cde();  		// default                              
 //		a1.def();  		// private - 같은 클래스 내부에서만 접근 가능 << 접근불가 
 	}
-
 }
