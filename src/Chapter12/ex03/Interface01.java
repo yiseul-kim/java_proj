@@ -8,6 +8,10 @@ interface A {			// 필드, 메소드
 	
 	//  메소드
 	public abstract void abc(); 
+	
+	// 구현한 메소드를 선언시 오류 발생
+//	 void bcd() { 	}
+	
 }
 
 // 인터페이스의 구현되지 않는 메소드를 구현하는 클래스
@@ -67,6 +71,8 @@ public class Interface01 {
 		D d2 = new Dd();
 		d2.abc();
 		System.out.println(d2.a);
+//		d2.a=10;			//d2의 값 수정 불가 - public static final [상수]
+		
 		
 		
 		
