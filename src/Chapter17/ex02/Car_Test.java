@@ -11,7 +11,7 @@ public class Car_Test {
 
 	public static void main(String[] args) {
 		// 1. Car 타입의 객체 5개 생성후
-		Car c1 = new Car("현대", "그랜저", "빨간", 300);
+		Car c1 = new Car("현대", "그랜저", "빨강", 300);
 		Car c2 = new Car("삼성", "SM6", "노랑", 250);
 		Car c3 = new Car("BMW", "BM6", "파랑", 350);
 		Car c4 = new Car("밴츠", "밴츠6", "검정", 250);
@@ -38,10 +38,10 @@ public class Car_Test {
 		for ( int i = 0; i<cList.size(); i++) {
 			System.out.println(cList.get(i));
 		}
-				
+		System.out.println("==========================");
 		// 5-2. Enhanced For 문으로 출력 
-		for (int d : cList2 ) {
-			System.out.print(cList2.get(d));
+		for (Car k : cList ) {
+			System.out.println(k);
 		}
 		
 	}
