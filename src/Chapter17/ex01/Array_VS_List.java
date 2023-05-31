@@ -36,7 +36,7 @@ public class Array_VS_List {
 			System.out.println(Arrays.toString(arr));		//배열의 중간의 값을 제거시 자동으로 축소 되지 않는다. 
 			System.out.println(arr.length);
 			
-			
+			System.out.println("==============");
 		// 2.컬렉션 :  List <E>	<=ArrayList<E> 
 		
 			List<String> aList = new ArrayList<String> ();
@@ -47,12 +47,12 @@ public class Array_VS_List {
 			aList.add("가");		aList.add("나");		aList.add("다");		aList.add("라");
 			aList.add("마");		aList.add("바");		aList.add("사");
 
-			System.out.println("List 의 방의 크기 : "+ aList.size());
+			System.out.println("List 의 방의 크기 : "+ aList.size());		// 방의 크기를 출력
 			
 			aList.remove("다");
 			aList.remove("나");
-			System.out.println("List 의 방의 크기 : "+ aList.size());
-			
+			System.out.println("List 의 방의 크기 : "+ aList.size());		// 방의 크기를 출력
+			System.out.println(aList);		//[가, 라, 마, 바, 사]
 			
 			
 			
